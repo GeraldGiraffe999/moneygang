@@ -1,0 +1,717 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Comic Sans MS;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.navbar{
+	padding:25px 20px;
+	width: 100%;
+	height: 30px;
+	background: #000000;
+}
+ul{
+	margin: 0;
+	list-style: none;
+	display: inline;
+}
+li{
+	font-size: 22px;
+	font-weight: 500;
+	float: left;
+	color: #fff;
+	margin-right: 50px;
+	cursor: pointer;
+}
+.brand{
+	margin-right: 380px;
+	margin-left: 20px;
+	font-size: 25px;
+	color: #00d4ff;
+}
+li:hover{
+	color: #00d4ff;
+}
+.heading{
+	top: 240px;
+	color: #00d4ff;
+	font-size: 90px;
+	font-family: fantasy;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+
+
+.tee1img{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 240px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.tee1content{
+	position: absolute;
+	top: 270px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.tee1button{
+	position: absolute;
+	top: 340px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.tee1price{
+	position: absolute;
+	top: 340px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.tee1button:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+
+.hoodie2img{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 640px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.hoodie2content{
+	position: absolute;
+	top: 670px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.hoodie2button{
+	position: absolute;
+	top: 740px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.hoodie2price{
+	position: absolute;
+	top: 740px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.hoodie2button:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+
+.stickerimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 1040px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.stickercontent{
+	position: absolute;
+	top: 1070px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.stickerbutton{
+	position: absolute;
+	top: 1140px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.stickerprice{
+	position: absolute;
+	top: 1140px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.stickerbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.logoposterimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 1440px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.logopostercontent{
+	position: absolute;
+	top: 1470px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.logoposterbutton{
+	position: absolute;
+	top: 1540px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.logoposterprice{
+	position: absolute;
+	top: 1540px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.logoposterbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.warposterimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 1840px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.warpostercontent{
+	position: absolute;
+	top: 1870px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.warposterbutton{
+	position: absolute;
+	top: 1940px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.warposterprice{
+	position: absolute;
+	top: 1940px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.warposterbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.aglposterimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 2240px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.aglpostercontent{
+	position: absolute;
+	top: 2270px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.aglposterbutton{
+	position: absolute;
+	top: 2340px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.aglposterprice{
+	position: absolute;
+	top: 2340px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.aglposterbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.logopillowimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 2640px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.logopillowcontent{
+	position: absolute;
+	top: 2670px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.logopillowbutton{
+	position: absolute;
+	top: 2740px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.logopillowprice{
+	position: absolute;
+	top: 2740px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.logopillowbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.logomugimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 3040px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.logomugcontent{
+	position: absolute;
+	top: 3070px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.logomugbutton{
+	position: absolute;
+	top: 3140px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.logomugprice{
+	position: absolute;
+	top: 3140px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.logomugbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.logobackpackimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 3440px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.logobackpackcontent{
+	position: absolute;
+	top: 3470px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.logobackpackbutton{
+	position: absolute;
+	top: 3540px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.logobackpackprice{
+	position: absolute;
+	top: 3540px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.logobackpackbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.neckgaiterimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 3840px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.neckgaitercontent{
+	position: absolute;
+	top: 3870px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.neckgaiterbutton{
+	position: absolute;
+	top: 3940px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.neckgaiterprice{
+	position: absolute;
+	top: 3940px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.neckgaiterbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.phonecaseimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 4240px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.phonecasecontent{
+	position: absolute;
+	top: 4270px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.phonecasebutton{
+	position: absolute;
+	top: 4340px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.phonecaseprice{
+	position: absolute;
+	top: 4340px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.phonecasebutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.mousepadimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 4640px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.mousepadcontent{
+	position: absolute;
+	top: 4670px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.mousepadbutton{
+	position: absolute;
+	top: 4740px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.mousepadprice{
+	position: absolute;
+	top: 4740px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.mousepadbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.snapbackimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 5040px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.snapbackcontent{
+	position: absolute;
+	top: 5070px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.snapbackbutton{
+	position: absolute;
+	top: 5140px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.snapbackprice{
+	position: absolute;
+	top: 5140px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.snapbackbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+.shoesimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 5440px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.shoescontent{
+	position: absolute;
+	top: 5470px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.shoesbutton{
+	position: absolute;
+	top: 5540px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.shoesprice{
+	position: absolute;
+	top: 5540px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.shoesbutton:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+
+.bottombar{
+	position: absolute;
+	top: 6000px;
+	padding:25px 20px;
+	width: 100%;
+	height: 30px;
+	background: #000000;
+}
