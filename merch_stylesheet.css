@@ -1,12 +1,12 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Comic Sans MS;
+	font-family: Arial Narrow;
 	overflow-y: auto;
 	overflow-x: hidden;
 	position: relative;
 	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	background: #2d2d2e
 }
 .navbar{
 	padding:25px 20px;
@@ -31,16 +31,16 @@ li{
 	margin-right: 380px;
 	margin-left: 20px;
 	font-size: 25px;
-	color: #00d4ff;
+	color: #bd001c;
 }
 li:hover{
-	color: #00d4ff;
+	color: #bd001c;
 }
 .heading{
 	top: 240px;
-	color: #00d4ff;
+	color: #bd001c;
 	font-size: 90px;
-	font-family: fantasy;
+	font-family: OCR A Std;
 	text-transform: uppercase;
 	letter-spacing: 0.06em;
 }
@@ -70,11 +70,11 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
 .tee1price{
 	position: absolute;
@@ -83,14 +83,14 @@ li:hover{
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
 .tee1button:hover{
-	background: #00d4ff;
-	color: #fff;
+	background: #bd001c;
+	color: #000000;
 }
 
 
@@ -118,11 +118,11 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
 .hoodie2price{
 	position: absolute;
@@ -131,14 +131,14 @@ li:hover{
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
 .hoodie2button:hover{
-	background: #00d4ff;
-	color: #fff;
+	background: #bd001c;
+	color: #000000;
 }
 
 
@@ -166,11 +166,11 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
 .stickerprice{
 	position: absolute;
@@ -179,14 +179,14 @@ li:hover{
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
 .stickerbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+	background: #bd001c;
+	color: #000000;
 }
 
 .logoposterimg{
@@ -213,11 +213,11 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
 .logoposterprice{
 	position: absolute;
@@ -226,14 +226,14 @@ li:hover{
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
 .logoposterbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+	background: #bd001c;
+	color: #000000;
 }
 
 .warposterimg{
@@ -260,11 +260,11 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
 .warposterprice{
 	position: absolute;
@@ -273,14 +273,14 @@ li:hover{
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
 .warposterbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+	background: #bd001c;
+	color: #000000;
 }
 
 .aglposterimg{
@@ -307,11 +307,11 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
 .aglposterprice{
 	position: absolute;
@@ -320,14 +320,14 @@ li:hover{
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
 .aglposterbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+	background: #bd001c;
+	color: #000000;
 }
 
 .dysposterimg{
@@ -354,11 +354,11 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
 .dysposterprice{
 	position: absolute;
@@ -367,17 +367,17 @@ li:hover{
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
 .dysposterbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+	background: #bd001c;
+	color: #000000;
 }
 
-.logopillowimg{
+.iamposterimg{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -386,14 +386,14 @@ li:hover{
 	background: #ffffff;
 	border-radius: 25px;
 }
-.logopillowcontent{
+.iampostercontent{
 	position: absolute;
 	top: 3070px;
 	left: 30%;
 	color: #ffffff;
 	font-size: 40px;
 }
-.logopillowbutton{
+.iamposterbutton{
 	position: absolute;
 	top: 3140px;
 	left: 30%;
@@ -401,30 +401,30 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
-.logopillowprice{
+.iamposterprice{
 	position: absolute;
 	top: 3140px;
 	left: 40%;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
-.logopillowbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+.iamposterbutton:hover{
+	background: #bd001c;
+	color: #000000;
 }
 
-.logomugimg{
+.moreposterimg{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -433,14 +433,14 @@ li:hover{
 	background: #ffffff;
 	border-radius: 25px;
 }
-.logomugcontent{
+.morepostercontent{
 	position: absolute;
 	top: 3470px;
 	left: 30%;
 	color: #ffffff;
 	font-size: 40px;
 }
-.logomugbutton{
+.moreposterbutton{
 	position: absolute;
 	top: 3540px;
 	left: 30%;
@@ -448,30 +448,30 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
-.logomugprice{
+.moreposterprice{
 	position: absolute;
 	top: 3540px;
 	left: 40%;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
-.logomugbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+.moreposterbutton:hover{
+	background: #bd001c;
+	color: #000000;
 }
 
-.logobackpackimg{
+.logopillowimg{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -480,14 +480,14 @@ li:hover{
 	background: #ffffff;
 	border-radius: 25px;
 }
-.logobackpackcontent{
+.logopillowcontent{
 	position: absolute;
 	top: 3870px;
 	left: 30%;
 	color: #ffffff;
 	font-size: 40px;
 }
-.logobackpackbutton{
+.logopillowbutton{
 	position: absolute;
 	top: 3940px;
 	left: 30%;
@@ -495,30 +495,30 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
-.logobackpackprice{
+.logopillowprice{
 	position: absolute;
 	top: 3940px;
 	left: 40%;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
-.logobackpackbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+.logopillowbutton:hover{
+	background: #bd001c;
+	color: #000000;
 }
 
-.neckgaiterimg{
+.logomugimg{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -527,14 +527,14 @@ li:hover{
 	background: #ffffff;
 	border-radius: 25px;
 }
-.neckgaitercontent{
+.logomugcontent{
 	position: absolute;
 	top: 4270px;
 	left: 30%;
 	color: #ffffff;
 	font-size: 40px;
 }
-.neckgaiterbutton{
+.logomugbutton{
 	position: absolute;
 	top: 4340px;
 	left: 30%;
@@ -542,30 +542,30 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
-.neckgaiterprice{
+.logomugprice{
 	position: absolute;
 	top: 4340px;
 	left: 40%;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
-.neckgaiterbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+.logomugbutton:hover{
+	background: #bd001c;
+	color: #000000;
 }
 
-.phonecaseimg{
+.logobackpackimg{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -574,14 +574,14 @@ li:hover{
 	background: #ffffff;
 	border-radius: 25px;
 }
-.phonecasecontent{
+.logobackpackcontent{
 	position: absolute;
 	top: 4670px;
 	left: 30%;
 	color: #ffffff;
 	font-size: 40px;
 }
-.phonecasebutton{
+.logobackpackbutton{
 	position: absolute;
 	top: 4740px;
 	left: 30%;
@@ -589,30 +589,30 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
-.phonecaseprice{
+.logobackpackprice{
 	position: absolute;
 	top: 4740px;
 	left: 40%;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
-.phonecasebutton:hover{
-	background: #00d4ff;
-	color: #fff;
+.logobackpackbutton:hover{
+	background: #bd001c;
+	color: #000000;
 }
 
-.mousepadimg{
+.neckgaiterimg{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -621,14 +621,14 @@ li:hover{
 	background: #ffffff;
 	border-radius: 25px;
 }
-.mousepadcontent{
+.neckgaitercontent{
 	position: absolute;
 	top: 5070px;
 	left: 30%;
 	color: #ffffff;
 	font-size: 40px;
 }
-.mousepadbutton{
+.neckgaiterbutton{
 	position: absolute;
 	top: 5140px;
 	left: 30%;
@@ -636,30 +636,30 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
-.mousepadprice{
+.neckgaiterprice{
 	position: absolute;
 	top: 5140px;
 	left: 40%;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
-.mousepadbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+.neckgaiterbutton:hover{
+	background: #bd001c;
+	color: #000000;
 }
 
-.snapbackimg{
+.phonecaseimg{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -668,14 +668,14 @@ li:hover{
 	background: #ffffff;
 	border-radius: 25px;
 }
-.snapbackcontent{
+.phonecasecontent{
 	position: absolute;
 	top: 5470px;
 	left: 30%;
 	color: #ffffff;
 	font-size: 40px;
 }
-.snapbackbutton{
+.phonecasebutton{
 	position: absolute;
 	top: 5540px;
 	left: 30%;
@@ -683,30 +683,30 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
-.snapbackprice{
+.phonecaseprice{
 	position: absolute;
 	top: 5540px;
 	left: 40%;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
-.snapbackbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+.phonecasebutton:hover{
+	background: #bd001c;
+	color: #000000;
 }
 
-.shoesimg{
+.mousepadimg{
 	height: 300px;
 	width: 300px;
 	position: absolute;
@@ -715,14 +715,14 @@ li:hover{
 	background: #ffffff;
 	border-radius: 25px;
 }
-.shoescontent{
+.mousepadcontent{
 	position: absolute;
 	top: 5870px;
 	left: 30%;
 	color: #ffffff;
 	font-size: 40px;
 }
-.shoesbutton{
+.mousepadbutton{
 	position: absolute;
 	top: 5940px;
 	left: 30%;
@@ -730,33 +730,127 @@ li:hover{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
-.shoesprice{
+.mousepadprice{
 	position: absolute;
 	top: 5940px;
 	left: 40%;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 15px 30px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.mousepadbutton:hover{
+	background: #bd001c;
+	color: #000000;
+}
+
+.snapbackimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 6240px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.snapbackcontent{
+	position: absolute;
+	top: 6270px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.snapbackbutton{
+	position: absolute;
+	top: 6340px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #bd001c;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #bd001c;
+}
+.snapbackprice{
+	position: absolute;
+	top: 6340px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #bd001c;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.snapbackbutton:hover{
+	background: #bd001c;
+	color: #000000;
+}
+
+.shoesimg{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 6640px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.shoescontent{
+	position: absolute;
+	top: 6670px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.shoesbutton{
+	position: absolute;
+	top: 6740px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #bd001c;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #bd001c;
+}
+.shoesprice{
+	position: absolute;
+	top: 6740px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
 }
 .shoesbutton:hover{
-	background: #00d4ff;
-	color: #fff;
+	background: #bd001c;
+	color: #000000;
 }
 
 
 .bottombar{
 	position: absolute;
-	top: 6400px;
+	top: 7200px;
 	padding:25px 20px;
 	width: 100%;
 	height: 30px;

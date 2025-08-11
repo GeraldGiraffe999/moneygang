@@ -1,12 +1,12 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: Comic Sans MS;
+	font-family: Arial Narrow;
 	overflow-y: auto;
 	overflow-x: hidden;
 	position: relative;
 	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	background: #2d2d2e
 }
 .navbar{
 	padding:25px 20px;
@@ -29,12 +29,12 @@ li{
 }
 .brand{
 	margin-right: 380px;
-	margin-left: 20px;
+	margin-left: 50px;
 	font-size: 25px;
-	color: #00d4ff;
+	color: #bd001c;
 }
 li:hover{
-	color: #00d4ff;
+	color: #bd001c;
 }
 .gamergaming{
 	position: absolute;
@@ -50,7 +50,7 @@ img{
 	top: 240px;
 	left: 160px;
 	font-size: 90px;
-	font-family: fantasy;
+	font-family: OCR A Std;
 	text-transform: uppercase;
 	letter-spacing: 0.06em;
 }
@@ -73,7 +73,7 @@ img{
 	top: 240px;
 	left: 160px;
 	font-size: 90px;
-	font-family: fantasy;
+	font-family: OCR A Std;
 	text-transform: uppercase;
 	letter-spacing: 0.06em;
 }
@@ -109,7 +109,7 @@ img{
 	top: 860px;
 	left: 65%;
 	font-size: 90px;
-	font-family: fantasy;
+	font-family: OCR A Std;
 	text-transform: uppercase;
 	letter-spacing: 0.06em;
 }
@@ -151,11 +151,11 @@ img{
 }
 .merchheading{
 	position: absolute;
-	color: #00d4ff;
-	top: 880px;
+	color: #bd001c;
+	top: 900px;
 	left: 160px;
-	font-size: 90px;
-	font-family: fantasy;
+	font-size: 70px;
+	font-family: OCR A Std;
 	text-transform: uppercase;
 	letter-spacing: 0.06em;
 }
@@ -175,15 +175,15 @@ img{
 	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 20px;
-	border: 1px solid #00d4ff;
+	border: 1px solid #bd001c;
 	border-radius: 25px;
 	transition: 0.5s;
 	transition-property: background;
-	color: #00d4ff;
+	color: #bd001c;
 }
 .merchbutton:hover{
-	background: #00d4ff;
-	color: #ffffff;
+	background: #bd001c;
+	color: #000000;
 }
 .bottombar{
 	position: absolute;
